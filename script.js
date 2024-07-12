@@ -11,7 +11,7 @@ function addTask() {
 
     // Create an image for unchecked status
     var uncheckedImage = document.createElement('img');
-    uncheckedImage.src = '/AllImages/unchecked_star.png';
+    uncheckedImage.src = 'AllImages/unchecked_star.png';
     uncheckedImage.alt = 'Unchecked';
     uncheckedImage.className = 'task-image';
     uncheckedImage.onclick = function() {
@@ -26,7 +26,7 @@ function addTask() {
 
     // Create an image for checked status
     var checkedImage = document.createElement('img');
-    checkedImage.src = '/AllImages/checked_star.png';
+    checkedImage.src = 'AllImages/checked_star.png';
     checkedImage.alt = 'Checked';
     checkedImage.className = 'task-image';
     checkedImage.style.display = 'none'; // Initially hidden
@@ -100,7 +100,7 @@ function loadTasksFromLocalStorage() {
     var listItem = document.createElement('li');
     listItem.className = 'list-group-item d-flex justify-content-between align-items-center';
     var uncheckedImage = document.createElement('img');
-    uncheckedImage.src = '/AllImages/unchecked_star.png';
+    uncheckedImage.src = 'AllImages/unchecked_star.png';
     uncheckedImage.alt = 'Unchecked';
     uncheckedImage.className = 'task-image';
     uncheckedImage.style.display = tasks[i].completed ? 'none' : 'inline';
@@ -112,7 +112,7 @@ function loadTasksFromLocalStorage() {
     };
 
     var checkedImage = document.createElement('img');
-    checkedImage.src = '/AllImages/checked_star.png';
+    checkedImage.src = 'AllImages/checked_star.png';
     checkedImage.alt = 'Checked';
     checkedImage.className = 'task-image';
     checkedImage.style.display = tasks[i].completed ? 'inline' : 'none';
@@ -189,9 +189,9 @@ window.onload = fetchWeather;
 
   function toggleCheckbox(checkbox) {
     if (checkbox.src.includes("./AllImages/heart_unchecked.png")) {
-      checkbox.src = "./AllImages/heart_checked.png";
+      checkbox.src = "AllImages/heart_checked.png";
     } else {
-      checkbox.src = "./AllImages/heart_unchecked.png";
+      checkbox.src = "AllImages/heart_unchecked.png";
     }
   }
 
@@ -236,9 +236,9 @@ function generateCalendar() {
 }
 
 function toggleCheckbox(checkbox) {
-  if (checkbox.src.includes("/AllImages/heart_unchecked.png")) {
-    checkbox.src = "/AllImages/heart_checked.png";
+  if (checkbox.src.includes("AllImages/heart_unchecked.png")) {
+    checkbox.src = "AllImages/heart_checked.png";
   } else {
-    checkbox.src = "/AllImages/heart_unchecked.png";
+    checkbox.src = "AllImages/heart_unchecked.png";
   }
 }
