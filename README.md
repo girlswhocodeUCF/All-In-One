@@ -5,10 +5,10 @@
 
 | Name              | GitHub                                                      | 
 | ----------------- | ----------------------------------------------------------- | 
-| Vianna    | [@dxvinelight](https://github.com/dxvinelight)  |
-| Ramy   | [@HarmonyH27](https://github.com/HarmonyH27)  |
-| Hannah   | [@HarmonyH27](https://github.com/HarmonyH27)  |
-| Tanisha   | [@HarmonyH27](https://github.com/HarmonyH27)  |
+| Vianna    | [@viannahuynh](https://github.com/viannahuynh)  |
+| Ramy   | [@rnagarur](https://github.com/rnagarur)  |
+| Hannah   |  |
+| Tanisha   |   |
 
 ### Mentor
 
