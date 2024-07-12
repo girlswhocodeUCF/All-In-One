@@ -17,7 +17,7 @@
 | Sam Sanchez Juarez  | [@samsannchez](https://github.com/samsannchez)       |          
 
 ## Demo
-[Click here to see our demo!](https://replit.com/@sa830042/PacMan-Game)
+[Click here to see our demo!](https://girlswhocodeucf.github.io/All-In-One)
 
 ## About 
 ![alt text](Presentation/2.png)
