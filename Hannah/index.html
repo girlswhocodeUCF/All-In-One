@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Boxes Layout</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--START OF UPPER PART-->
+  <div class="container">
+    <!--TITTLE -->
+    <div class="header top-left">
+      <h1>⋆ ˚｡⋆‧₊˚✧All In One✧˚₊‧⋆ ˚｡⋆</h1>
+    </div>
+    <!--WEATHER-->
+    <div class="header top-right">
+      <h1>Weather</h1>
+    </div>
+  </div>
+  <!--END OF UPPER PART-->
+
+  <!--START OF LOWER PART-->
+  <div class="container">
+    <!--TO DO-->
+    <div class="box left-box">
+      <h1>To Do</h1>
+    </div>
+    <!--CALENDAR-->
+    <div class="box center-box">
+      <h1>Calendar</h1>
+    </div>
+    <!--START OF RIGHT CONTAINER-->
+    <div class="box right-box">
+      <!--HABIT TRACKER-->
+      <div class="subbox" id="habit">
+        <table id="table1">
+          <thead>
+            <th colspan=8 class="name-heading">Habit Tracker</th>
+            <tr>
+              <th></th>
+              <th>S</th>
+              <th>M</th>
+              <th>T</th>
+              <th>W</th>
+              <th>T</th>
+              <th>F</th>
+              <th>S</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Exercise?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+            </tr>
+            <tr>
+              <th>Vacuum?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+            </tr>
+            <tr>
+              <th>Drink 2L Water?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+            </tr>
+            <tr>
+              <th>Eat Fruits?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+            </tr>
+            <tr>
+              <th>Walk?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)" width="20px"></td>
+            </tr>
+            <!-- Add other rows similarly -->
+          </tbody>
+        </table>
+      </div>
+      <!--NOTES-->
+      <div class="subbox" id="notes">
+        <h1 class="name-heading">Notes</h1>
+      </div>
+    </div>
+    <!--END OF RIGHT CONTAINER-->
+  </div>
+  <!--END OF LOWER PART-->
+
+  <script>
+    function toggleCheckbox(checkbox) {
+      if (checkbox.src.includes("/AllImages/heart_unchecked.png")) {
+        checkbox.src = "/AllImages/heart_checked.png";
+      } else {
+        checkbox.src = "/AllImages/heart_unchecked.png";
+      }
+    }
+  </script>
+</body>
+
+</html>

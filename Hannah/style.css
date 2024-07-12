@@ -1,0 +1,117 @@
+/*****************************
+            LAYOUT
+*****************************/
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.box {
+  height: 500px;
+}
+
+.header {
+  height: 100px;
+}
+
+.right-box {
+  width: 25%;
+}
+
+.subbox {
+  height: 50%;
+  display: flex;
+}
+
+.name-heading {
+  font-family: 'Madimi One';
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*****************************
+           TITTLE
+*****************************/
+
+.top-left {
+  width: 60%;
+  font-family: 'Madimi One';
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  color: #0081A7;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #0081A7;
+  border-radius: 26px;  
+  background: #FDFCDC;
+}
+
+/*****************************
+           WEATHER
+*****************************/
+.top-right {
+  width: 38%;
+  background-color: purple;
+}
+
+/*****************************
+            TO DO
+*****************************/
+
+.left-box {
+  width: 25%;
+  background-color: #3498db;
+}
+
+
+/*****************************
+          CALENDAR
+*****************************/
+.center-box {
+  width: 48%;
+  background-color: #2ecc71;
+}
+
+/*****************************
+       HABIT TRACKER
+*****************************/
+
+#habit {
+  font-family: "Madimi One", sans-serif;
+  text-align: center;
+  color: #0081A7;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #0081A7;
+  border-radius: 26px;  
+  background: linear-gradient(#FED9B7 0%, #FED9B7 20%, #FDFCDC 20%);
+}
+
+.name-heading{
+  text-align: center;
+
+}
+
+#table1{
+  width:100%;
+}
+
+
+/*****************************
+            NOTES
+*****************************/
+#notes {
+  height: 48%;
+  font-family: "Madimi One", sans-serif;
+  text-align: center;
+  color: #0081A7;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #0081A7;
+  border-radius: 26px;  
+  background: linear-gradient(#FED9B7 0%, #FED9B7 20%, #FDFCDC 20%);
+  margin-top: 2%;
+}

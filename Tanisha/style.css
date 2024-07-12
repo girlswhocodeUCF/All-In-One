@@ -1,0 +1,128 @@
+/*****************************
+            LAYOUT
+*****************************/
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.box {
+  height: 500px;
+}
+
+.header {
+  height: 100px;
+}
+
+.right-box {
+  width: 25%;
+}
+
+.subbox {
+  height: 50%;
+  display: flex;
+
+}
+
+/*****************************
+           TITTLE
+*****************************/
+
+.top-left {
+  font-family: "Roboto", sans-serif;
+  width: 60%;
+  background-color: pink;
+}
+
+/*****************************
+           WEATHER
+*****************************/
+.top-right {
+  width: 38%;
+  background-color: purple;
+}
+
+/*****************************
+            TO DO
+*****************************/
+
+.left-box {
+  width: 25%;
+  background-color: #3498db;
+}
+
+
+/*****************************
+          CALENDAR
+*****************************/
+#currentDate1{
+  font-family: "Madimi One", sans-serif;
+}
+.date-top{
+  font-family: "Madimi One", sans-serif;
+}
+.center-box {
+  width: 48%;
+  font-family: "Madimi One", sans-serif;
+}
+.calendar-container {
+  font-family: "Madimi One", sans-serif;
+  position: relative;
+  width: 100%;
+  height: 380px;
+}
+.calendar-container header {
+  border-radius: 1em 1em 0 0;
+  background: #F07167;
+  color: #fff;
+  padding: 2em 2em;
+
+}
+.day {
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 20%;
+}
+.month {
+  font-size: 2em;
+  text-transform: lowercase;
+}
+
+
+thead {
+  color: #e66b6b;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 1em 1.6em;
+  text-align: center;
+}
+
+.calendar tbody td:hover {
+  background: #cacaca;
+  color: #fff;
+}
+
+.current-day {
+  color: #e66b6b;
+}
+
+/*****************************
+       HABIT TRACKER
+*****************************/
+
+#habit {
+  background-color: #FDFCDC;
+}
+
+/*****************************
+            NOTES
+*****************************/
+#notes {
+  height: 48%;
+  background-color: red;
+  margin-top: 2%;
+}

@@ -1,0 +1,168 @@
+/*****************************
+            LAYOUT
+*****************************/
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  .box {
+    height: 500px;
+  }
+
+  .header {
+    height: 100px;
+  }
+
+  .right-box {
+    width: 25%;
+  }
+
+  .subbox {
+    height: 50%;
+    display: flex;
+
+  }
+
+  /*****************************
+             TITLE
+  *****************************/
+
+  .top-left {
+    font-family: "Roboto", sans-serif;
+    width: 60%;
+    background-color: pink;
+  }
+
+  /*****************************
+             WEATHER
+  *****************************/
+  .top-right {
+    width: 38%;
+    background-color: purple;
+  }
+
+  /*****************************
+              TO DO
+  *****************************/
+
+  .left-box {
+    width: 25%;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#0081A7;
+    border-radius: 25px;
+    background-color:  #FED9B7;  
+  }
+
+  #todoColor{
+    font-size: 25px;
+    font-family: "Madimi One", sans-serif;
+    margin-right: 15px;
+    bottom: 85%;
+    font-weight: bold;
+  }
+
+  .to-do{
+    height: 60px;
+    margin-top: 0px;
+
+  }
+
+
+
+  .titleColor{
+    background-color:#FDFCDC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .todolist h1 {
+      margin-bottom: 0px;
+      text-align: center;
+      color:  #0081A7;
+  }
+
+  #taskInput {
+      margin-top:10px;
+      margin-bottom: 10px;
+  }
+
+  #taskList li {
+      opacity: 0.9;
+      list-style-type: none;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      margin-right:5px;
+      color: #F07167;
+
+  }
+
+  #taskList li button {
+      margin-left: 100px;
+      width: 25.5px; 
+      height: 25.5px; 
+      padding: 6px 0px; 
+      border-radius: 15px; 
+      font-size: 5px; 
+      text-align: center;
+      position: fixed;
+      left:200px;
+      background:#F07167;
+      border-color:#0081A7;
+  }
+
+
+  .completed {
+    text-decoration: line-through;
+  }
+
+  .task-image {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .input-group{
+    margin-top: 15px;
+    margin-left:50px;
+    opacity:90%
+  }
+
+  .btn-outline-secondary{
+    color:#0081A7;
+    opacity:90%;
+  }
+
+
+
+  /*****************************
+            CALENDAR
+  *****************************/
+  .center-box {
+    width: 48%;
+    background-color: #2ecc71;
+  }
+
+  /*****************************
+         HABIT TRACKER
+  *****************************/
+
+  #habit {
+    background-color: #FDFCDC;
+  }
+
+  /*****************************
+              NOTES
+  *****************************/
+  #notes {
+    height: 48%;
+    background-color: red;
+    margin-top: 2%;
+  }

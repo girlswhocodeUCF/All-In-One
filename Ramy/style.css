@@ -1,0 +1,127 @@
+/*****************************
+            LAYOUT
+*****************************/
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.box {
+  height: 500px;
+}
+
+.header {
+  height: 100px;
+}
+
+.right-box {
+  width: 25%;
+}
+
+.subbox {
+  height: 50%;
+  display: flex;
+
+}
+
+/*****************************
+           TITTLE
+*****************************/
+
+.top-left {
+  font-family: "Roboto", sans-serif;
+  width: 60%;
+  background-color: pink;
+}
+
+/*****************************
+           WEATHER
+*****************************/
+.top-right {
+  width: 38%;
+  background-color: #FDFCDC;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #0081A7;
+ 
+}
+
+.weather_element{
+  display: inline-block;
+}
+#description{
+  color: #F07167;
+  font-size: 25px;
+  font-family: "Madimi One", sans-serif;
+  margin-right: 15px;
+  position: fixed;
+  bottom: 85%;
+  font-weight: bold;
+
+}
+
+#temp{
+  color: #F07167;
+  font-size: 25px;
+  font-family: "Madimi One", sans-serif;
+  /*margin-right: 10px;*/
+  position: fixed;
+  right: 12%;
+  bottom: 81.5%;
+  font-weight: bold;
+  
+  
+}
+
+#location{
+  color: #F07167;
+  font-size: 25px;
+  font-family: "Madimi One", sans-serif;
+  position: fixed;
+  right: 2.5%;
+  bottom: 85%;
+  font-weight: bold;
+
+}
+
+#weather-icon{
+  width: 100px;
+  
+}
+
+/*****************************
+            TO DO
+*****************************/
+
+.left-box {
+  width: 25%;
+  background-color: #3498db;
+}
+
+
+/*****************************
+          CALENDAR
+*****************************/
+.center-box {
+  width: 48%;
+  background-color: #2ecc71;
+}
+
+/*****************************
+       HABIT TRACKER
+*****************************/
+
+#habit {
+  background-color: #FDFCDC;
+}
+
+/*****************************
+            NOTES
+*****************************/
+#notes {
+  height: 48%;
+  background-color: red;
+  margin-top: 2%;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Boxes Layout</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!--START OF UPPER PART-->
+  <div class="container">
+    <!--TITTLE -->
+    <div class="header top-left">
+      <h1>⋆ ˚｡⋆‧₊˚✧All In One✧˚₊‧⋆ ˚｡⋆</h1>
+    </div>
+    <!--WEATHER-->
+    <div class="header top-right">
+      <img class="weather_element" id="weather-icon" src="" alt="Weather Icon">
+      <div class="weather_element" id="description"></div>
+      <h2 class="weather_element" id="temp"></h2>
+      <div class="weather_element" id="location"></div>
+
+    </div>
+  </div>
+  <!--END OF UPPER PART-->
+
+
+  <!--START OF LOWER PART-->
+  <div class="container">
+    <!--TO DO-->
+    <div class="box left-box">
+      <div class="todolist">
+        <div class="titleColor">
+          <h1 class="to-do">To Do</h1>
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" id="newTask" class="form-control" placeholder="Add a new task">
+          <!---<div class="input-group-append">--->
+          <button id="btn-task" class="btn btn-outline-secondary" onclick="addTask()">Add Task</button>
+          <!--</div>-->
+        </div>
+        <ul id="taskList" class="list-group">
+        </ul>
+      </div>
+    </div>
+    <!--CALENDAR-->
+    <div class="box center-box">
+      <div class="calendar-container">
+        <header>
+          <div class="day" id="currentDay"></div>
+          <div class="month" id="currentMonth"></div>
+        </header>
+        <table class="calendar">
+          <thead class="calendar-th">
+            <tr class="calendar-tr">
+              <td class="calendar-td">Sun</td>
+              <td class="calendar-td">Mon</td>
+              <td class="calendar-td">Tue</td>
+              <td class="calendar-td">Wed</td>
+              <td class="calendar-td">Thu</td>
+              <td class="calendar-td">Fri</td>
+              <td class="calendar-td">Sat</td>
+            </tr>
+          </thead>
+          <tbody id="calendarBody">
+            <!-- Calendar body will be populated by JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!--START OF RIGHT CONTAINER-->
+    <div class="box right-box">
+      <!--HABIT TRACKER-->
+      <div class="subbox" id="habit">
+        <table id="table1">
+          <thead>
+            <th colspan=8 class="name-heading">Habit Tracker</th>
+            <tr>
+              <th></th>
+              <th>S</th>
+              <th>M</th>
+              <th>T</th>
+              <th>W</th>
+              <th>T</th>
+              <th>F</th>
+              <th>S</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Exercise?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+            </tr>
+            <tr>
+              <th>Vacuum?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+            </tr>
+            <tr>
+              <th>Drink 2L Water?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+            </tr>
+            <tr>
+              <th>Eat Fruits?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+            </tr>
+            <tr>
+              <th>Walk?</th>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+              <td><img src="/AllImages/heart_unchecked.png" class="checkbox" onclick="toggleCheckbox(this)"
+                  width="20px"></td>
+            </tr>
+            <!-- Add other rows similarly -->
+          </tbody>
+        </table>
+      </div>
+      <!--NOTES-->
+      <div class="subbox" id="notes">
+        <div class="notes-heading">
+          <h1 class="tittle">Notes</h1>
+        </div>
+        <div class="notes-container">
+          <input type="text" class="note" id="note1">
+          <input type="text" class="note" id="note1">
+          <input type="text" class="note" id="note1">
+          <input type="text" class="note" id="note1">
+          <input type="text" class="note" id="note1">
+          <input type="text" class="note" id="note1">
+        </div>
+      </div>
+    </div>
+    <!--END OF RIGHT CONTAINER-->
+  </div>
+  <!--END OF LOWER PART-->
+  <script>
+    // Call the function to generate the calendar
+    generateCalendar();
+  </script>
+</body>
+
+</html>
