@@ -5,7 +5,7 @@
 
 | Name              | GitHub                                                      | 
 | ----------------- | ----------------------------------------------------------- | 
-| Vianna    | [@viannahuynh](https://github.com/viannahuynh)  |
+| Vianna    | [@viannahuynh](https://github.com/viannahuynh)  | 
 | Ramy   | [@rnagarur](https://github.com/rnagarur)  |
 | Hannah   |  |
 | Tanisha   |   |
